@@ -1,0 +1,101 @@
+.reviews-app-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.arrows-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-app-bg-container {
+    padding-top: 160px;
+  }
+
+  .reviews-heading {
+    font-size: 62px;
+  }
+
+  .arrows-container {
+    width: 72%;
+  }
+}
+
+.profile {
+  height: 120px;
+  width: 120px;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+
+.arrow {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    height: 200px;
+    width: 200px;
+  }
+
+  .arrow {
+    height: 42px;
+    width: 42px;
+  }
+}
+
+.user-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.company-name {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 18px;
+}
+
+.description {
+  width: 74%;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-name {
+    font-size: 26px;
+  }
+
+  .company-name {
+    font-size: 24px;
+  }
+
+  .description {
+    width: 48%;
+    font-size: 26px;
+  }
+}
